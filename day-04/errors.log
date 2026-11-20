@@ -1,0 +1,10 @@
+DUPLICATE METER: M001,Duplicate Meter,900,930,Mamelodi -> Meter M001 already exists
+INVALID READING: M211,Missing Reading,,950,Soshanguve -> Previous reading '' must be a number >= 0
+INVALID READING: M212,Negative Reading,-10,20,Mamelodi -> Previous reading '-10' must be a number >= 0
+REVERSED READING: M213,Reversed Reading,1200,1100,Ga-Rankuwa -> Current 1100 is below Previous 1200
+INVALID READING: M214,Invalid Reading,abc,1230,Atteridgeville -> Previous reading 'abc' must be a number >= 0
+INVALID AREA: M215,Missing Area,900,950, -> Area is empty
+INVALID FORMAT: M216,Too,Few,Fields -> Expected 5 fields, got 4
+INVALID FORMAT: M217,Extra,100,120,Mamelodi,EXTRA -> Expected 5 fields, got 6
+INVALID NAME: M218,,100,150,Soshanguve -> Household name is empty
+INVALID NAME: M219, ,100,130,Mamelodi -> Household name is empty
